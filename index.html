@@ -7,6 +7,7 @@
   <title> Dessert Ideas</title>
 </head>
 <body>
+  <div class="container">
   <header>
   <h1>
    Welcome to the Ai dessert idea Generator
@@ -18,10 +19,12 @@
 <form>
   <input type="text" placeholder=" Enter the Sweet treat"
   autofocus
-  required/>
-  <input type="submit"/>
+  required
+  autocomplete="off"
+  class="intructions"/>
+  <input type="submit" class="button"/>
 </form>
-<div>
+<div class="food">
   The suggestions of desserts 
 </div>
 
@@ -30,5 +33,6 @@
   and is hosted on <a href="https://dessertideagenerator.netlify.app/" target="_blank"> netlify</a> .
   </footer>
   <script src="src/index.js"></script>
+  </div>
 </body>
 </html>
