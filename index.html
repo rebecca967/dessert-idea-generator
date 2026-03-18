@@ -18,26 +18,38 @@
   </header>
   <main>
 
-  </main>
+  <div class="form-container">
 <form id="dessert-idea-generator">
-  <input type="text" placeholder=" Enter the Sweet treat"
-  autofocus
-  required
-  autocomplete="off"
-  class="intructions"
-  id="user-instructions"
-  />
-  <input type="submit" class="button"/>
+
+  <div class="input-row">
+    <input 
+    type="text" 
+    placeholder="Type ingredient or sweet treat"
+    class="instructions" 
+    id="user-instructions" 
+    required
+    autocomplete="off"
+    />
+    <input type="submit" class="button"/>
+  </div>
+
+
+  <small class="example">i.e: Mango, Popcorn, Cookies</small>
+
 </form>
+</div>
+
 <div class="food">
   The suggestions of desserts 
 </div>
+  </main>
 
-  <footer>
+   <footer>
     This AI project was coded by <a href="https://github.com/" target ="_blank">Rebecca Dani </a> and is <a href="https://github.com/rebecca967/dessert-idea-generator" target="_blank"> open-sourced</a> on Github
   and is hosted on <a href="https://dessertideagenerator.netlify.app/" target="_blank"> netlify</a> .
   </footer>
-  <script src="src/index.js"></script>
   </div>
+  <script src="src/index.js"></script>
+  
 </body>
 </html>
